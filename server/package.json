@@ -1,0 +1,10 @@
+{
+  "name": "arcom-play-servidor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor do Arcom Play: entrega o site, guarda os dados no PostgreSQL e faz a ponte do Power Quiz ao vivo.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "4.21.2", "pg": "8.13.1", "ws": "8.18.0" }
+}
