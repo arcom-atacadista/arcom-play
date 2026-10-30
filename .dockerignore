@@ -1,0 +1,5 @@
+.env
+.git
+backups
+server/node_modules
+docs
